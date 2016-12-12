@@ -1,7 +1,7 @@
 /*========CV=========*/
-.container{width: 800px;overflow: hidden;margin: 0 auto;margin-top: 50px;}
-.left{background: #1bbc9b;width: 30%;padding: 20px;height: 800px;}
-.right{background: #f1f1f1;width: 65%;padding: 20px;height: 800px;}
+.container{width: 800px;overflow: hidden;margin: 0 auto;/*margin-top: 50px;margin-bottom: 50px;*/}
+.left{background: #1bbc9b;width: 30%;padding: 20px;height: 850px;}
+.right{background: #f1f1f1;width: 65%;padding: 20px;height: 850px;}
 
 .left .photo{width: 100%;margin-top: 15px;}
 .left figure{display: block;margin:0 auto;text-align: center;}
@@ -12,7 +12,7 @@
 .left .introduce h1{line-height: 20px;font-size: 18px;color:#006954;}
 .left .my_skill{border-top: 1px #16977d solid;width: 100%;}
 .left .my_skill .skill_list{list-style: none;overflow: hidden;margin-top: 15px;}
-.left .my_skill .skill_list li{position: relative;width: 100%;height: 10px;line-height: 10px;margin-top: 10px;overflow: hidden;font-size: 12px}
+.left .my_skill .skill_list li{position: relative;width: 100%;height: 15px;line-height: 15px;margin-top: 5px;overflow: hidden;font-size: 12px}
 .left .my_skill .skill_list .skill_item{position: absolute;left:0;top:0;width:70px;color: #fff;text-align: right;}
 .left .my_skill .skill_list .skill_handle{height:10px;margin-left: 80px;border-radius: 5px;background: #16977d;overflow: hidden;}
 .left .my_skill .skill_list .handle{width: 100%;height:10px;border-bottom-left-radius: 5px;border-top-left-radius: 5px;display: block;position: absolute;left: 0;top: 0;background: #fff;}
@@ -25,11 +25,42 @@
 .left .my_skill .skill_list .w30{width: 30%;}
 .left .my_text{width: 100%;margin-top: 15px;color: #047a62;font-size: 12px;line-height: 18px;text-align: justify;}
 
-.left .contect{position: absolute;bottom: 50px;left: 0;width: 100%;}
+.left .contect{position: absolute;bottom: 15px;left: 0;width: 100%;}
 .left .contect .contect_list{list-style: none;overflow: hidden;}
 .left .contect .contect_list li{overflow: hidden;line-height: 25px;height: 25px;padding-left: 10%;}
 .left .contect .contect_list li .icon{width: 15px;height: 15px;border-radius: 50%;vertical-align: middle;margin-top: -1px;margin-right: 10px;}
 .left .contect .contect_list li .text{color: #fff;font-size: 14px;}
+
+.right .experience{width: 100%;margin-top: 15px;}
+.right .teach{position: absolute;bottom: 15px;}
+.right .experience .title{width: 100%;}
+.right .experience .title .txt_title{font-size: 25px;font-weight: bold;color: #6b6b6b;line-height: 25px;}
+.right .experience .title .href{color: #1bbc9b;}
+.right .experience .title .href a{color: #1bbc9b;text-decoration: underline;}
+.right .project{width: 100%;margin-top: 20px;}
+.right .project .pro_title .pro_txt{font-size: 20px;color: #1bbc9b;font-weight: bold;line-height: 25px;}
+.right .project .pro_title .txt_com{font-size: 14px;color: #999;line-height: 25px;}
+.right .project .pro_title .pro_skill{line-height: 25px;}
+.right .project .pro_title .pro_skill .point{display: inline-block;background: #1bbc9b;color: #fff;text-align: center;padding: 0 5px;height: 25px;}
+.right .project .pro_title .pro_skill .and{display: inline-block;background: #006954;width: 10px;height: 5px;}
+.right .project .pro_content{line-height: 20px;margin-top: 5px;color: #2d2d2d}
+.right .project .pro_foot{line-height: 20px;color: #999;}
+.right .experience .school_name{font-size: 20px;color: #1bbc9b;font-weight: bold;line-height: 40px;height: 40px;margin-top: 10px;}
+.right .experience .school_time{font-size: 14px;color: #1bbc9b;line-height: 25px;}
+.right .experience .major{font-size: 18px;color: #2d2d2d;line-height: 30px;}
+.right .experience .school_content{color: #666;line-height: 18px;font-size: 16px;}
+.right .experience .school_content .txt_green{color: #1bbc9b;line-height: 35px}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
