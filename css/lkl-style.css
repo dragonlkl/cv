@@ -23,9 +23,13 @@
 .left .my_skill .skill_list .w50{width: 50%;}
 .left .my_skill .skill_list .w40{width: 40%;}
 .left .my_skill .skill_list .w30{width: 30%;}
-.left .my_text{width: 100%;margin-top: 15px;color: #047a62;font-size: 12px;line-height: 18px;}
+.left .my_text{width: 100%;margin-top: 15px;color: #047a62;font-size: 12px;line-height: 18px;text-align: justify;}
 
-
+.left .contect{position: absolute;bottom: 50px;left: 0;width: 100%;}
+.left .contect .contect_list{list-style: none;overflow: hidden;}
+.left .contect .contect_list li{overflow: hidden;line-height: 25px;height: 25px;padding-left: 10%;}
+.left .contect .contect_list li .icon{width: 15px;height: 15px;border-radius: 50%;vertical-align: middle;margin-top: -1px;margin-right: 10px;}
+.left .contect .contect_list li .text{color: #fff;font-size: 14px;}
 
 
 
