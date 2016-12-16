@@ -5,30 +5,123 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 	<meta content="yes" name="apple-mobile-web-app-capable" />
 	<title>dragon.Lee-cv</title>
+	<link rel="stylesheet" type="text/css" href="css/lkl-style.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<script src="js/jquery-2.2.2.min.js"></script>
 	<script src="js/jquery.fullPage.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
 	<script>
 		$(function(){
-			$('#cv').fullpage();
+			$('#cv').fullpage({
+				'navigation': true,
+				navigationColor:"#f90",
+				easing:"easeInQuart",
+				continuousVertical: true,
+				afterLoad: function(anchorLink, index){
+					if(index == 2){
+						$('.animate_left').animate({
+							left: '0'
+						}, 2000, 'easeOutExpo');
+						$('.animate_right').animate({
+							right: '0'
+						}, 2000, 'easeOutExpo');
+					}
+					if(index == 3){
+						$('.section3').find('p').animate({
+							bottom: '0'
+						}, 1500, 'easeOutExpo');
+					}
+					if(index == 4){
+						$('.section4').find('p').fadeIn(2000);
+					}
+				},
+				onLeave: function(index, direction){
+					if(index == '2'){
+						$('.animate_left').animate({
+							left: '120%'
+						}, 2000, 'easeOutExpo');
+						$('.animate_right').animate({
+							right: '120%'
+						}, 2000, 'easeOutExpo');
+					}
+					if(index == '3'){
+						$('.section3').find('p').animate({
+							bottom: '-120%'
+						}, 1500, 'easeOutExpo');
+					}
+					if(index == '4'){
+						$('.section4').find('p').fadeOut(2000);
+					}
+				}
+			});
 		});
 	</script>
 </head>
 <body>
 	<div id="cv">
-	    <div class="section">
-	        <h3>第一屏</h3>
+	    <div class="section section1">
+	    	<div class="personal">
+	    		<div class="icon_mine">
+	    			<figure>
+		                <img src="images/fx_img2.png"/>
+		                <figcaption>李坤龙</figcaption>
+		            </figure>
+	    		</div>
+	    		<div class="txt_introduce">一腔热血的激情 · 一夜失眠的创意 · 一个像素的执着</div>
+	    		<div class="position">前端工程师</div>
+	    		<div class="email">497541426@qq.com</div>
+	    	</div>
 	    </div>
-	    <div class="section">
-	        <h3>第二屏</h3>
+	    <div class="section section2">
+	        <h3>项目经历</h3>
+	        <div class="project_list">
+	        	<ul>
+	        		<li class="animate_left">
+	        			<div class="pro_icon">
+	        				<img src="images/ziy_icon.png">
+	        			</div>
+	        			<div class="pro_index">
+	        				<h4>自驾游APP</h4>
+	        				<p>混合App开发。与UI设计人员沟通页面的设计合理性和实现可行性，根据UI图手写html+css实现网页，与php后台开发人员调试，兼容不同设备，注重页面交互性能。</p>
+	        			</div>
+	        		</li>
+	        		<li class="animate_right">
+	        			<div class="pro_icon">
+	        				<img src="images/ans_icon.png">
+	        			</div>
+	        			<div class="pro_index">
+	        				<h4>安顺出行APP</h4>
+	        				<p>混合App开发。根据UI图手写html+css实现网页，与php、java后台开发人员调试，兼容移动设备，注重页面交互性能。</p>
+	        			</div>
+	        		</li>
+	        		<li class="animate_left">
+	        			<div class="pro_icon">
+	        				<img src="images/web_icon.png">
+	        			</div>
+	        			<div class="pro_index">
+	        				<h4>官网开发</h4>
+	        				<p>公司官网设计开发。与UI沟通设计公司官网。用fullpage实现整屏滚动效果，兼容主流浏览器。采用响应式布局，兼容移动端。</p>
+	        			</div>
+	        		</li>
+	        		<li class="animate_right">
+	        			<div class="pro_icon">
+	        				<img src="images/ayl_icon.png">
+	        			</div>
+	        			<div class="pro_index">
+	        				<h4>公众号开发</h4>
+	        				<p>微信公众号页面开发。用photoshop设计页面并通过html+css实现网页。把项目打包发布到服务器上。</p>
+	        			</div>
+	        		</li>
+	        	</ul>
+	        </div>
 	    </div>
-	    <div class="section">
-	        <h3>第三屏</h3>
+	    <div class="section section3">
+	        <h3>工作经历</h3>
 	    </div>
-	    <div class="section">
+	    <div class="section section4">
 	        <h3>第四屏</h3>
+	        <p>fullPage.js — 回调函数演示</p>
 	    </div>
 	</div>
 </body>
