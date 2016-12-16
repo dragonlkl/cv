@@ -8,7 +8,7 @@ input,textarea{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)
 input[type=submit]{ border:none;-webkit-appearance: none; }
 input[type=text]{ border:none;-webkit-appearance: none;-webkit-tap-highlight-color: rgba(255,255,255,0); }
 input,a{-webkit-tap-highlight-color:rgba(0,0,0,0);}/*去点击效果*/
-a{ text-decoration:none;color: #2d2d2d;}
+a{ text-decoration:none;color: #fff;}
 *:focus {outline: none;}
 div{ position:relative;}
 button{font-family:Microsoft YaHei;}
