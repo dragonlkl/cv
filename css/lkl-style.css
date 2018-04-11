@@ -33,7 +33,7 @@
 
 .cv_right .experience{width: 100%;margin-top: 15px;}
 .cv_right .teach{position: absolute;bottom: 15px;}
-.cv_right .company{margin-top: 40px;color: #2d2d2d;}
+.cv_right .company{margin-top: 25px;color: #2d2d2d;}
 .cv_right .experience .title{width: 100%;}
 .cv_right .experience .title .txt_title{font-size: 25px;font-weight: bold;color: #6b6b6b;line-height: 25px;}
 .cv_right .experience .title .href{color: #1bbc9b;}
@@ -75,11 +75,26 @@
 .section2 .project_list .pro_icon img{width: 78px;height: 78px;border-radius: 50%;}
 .section2 .project_list .pro_index{float: left;width: 400px;vertical-align: middle;margin-left: 20px;text-align: left;}
 .section2 .project_list .pro_index h4{font-size: 26px;color: #008a75;}
+.section3 .work .company_box{background: rgba(0,0,0,.3);width: 350px;padding: 10px;margin: 0 auto;color: #d6d36e;}
+.section3 .work .company_box .compant_title{font-family: "微软雅黑";font-size: 20px;font-weight: bold;line-height: 40px;}
+.section3 .work .company_box .compant_time{text-decoration: underline;}
+.section3 .work .company_box .company_content{padding:5px;}
+.section3 .work .company_box .company_content p{text-align: center;}
+.section3 .work .company_box .company_content p.bold{line-height: 35px;font-size: 18px;}
+
+.section4 .tag-panel {margin: 15px auto;}
+.section4 .tag-panel .tag{background-color: #096254;color: #aee2d9; border-radius: 3px;display: inline-block;padding: 2px 8px;margin-right: 3px;margin-bottom: 3px;}
+.section4 .tag-panel .tag.familiar{opacity: 0.75;}
+.section4 .tag-panel .tag.expert {opacity: 1;}
+.section4 .tag-panel .tag.half {opacity: 0.4;}
 
 
 
-
-
+.section5 .education{}
+.section5 .education .collage{font-size: 36px;color: #fff;line-height: 70px;}
+.section5 .education .major{font-size: 24px;color: #d6d36e;line-height: 50px;font-weight: bold;}
+.section5 .education .topic{font-size: 20px;color: #008a75;line-height: 30px;font-weight: bold;}
+.section5 .education .gradute{font-size: 18px;color: #fff;line-height: 50px;}
 
 
 

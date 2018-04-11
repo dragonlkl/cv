@@ -13,6 +13,7 @@ a{ text-decoration:none;color: #fff;}
 div{ position:relative;}
 button{font-family:Microsoft YaHei;}
 .lh15{line-height: 1.5rem;}
+.bold{font-weight: bold;}
 
 /*通用部分*/
 .fl {float:left;}
