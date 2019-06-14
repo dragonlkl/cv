@@ -1,7 +1,7 @@
 /*========CV=========*/
 .container{width: 800px;overflow: hidden;margin: 0 auto;/*margin-top: 50px;margin-bottom: 50px;*/}
-.cv_left{background: #1bbc9b;width: 30%;padding: 20px;overflow: hidden;height: 1050px;}
-.cv_right{background: #f1f1f1;width: 65%;padding: 20px;overflow: hidden;height: 1050px;}
+.cv_left{background: #1bbc9b;width: 30%;padding: 20px;overflow: hidden;height: 950px;}
+.cv_right{background: #f1f1f1;width: 65%;padding: 20px;overflow: hidden;height: 950px;}
 
 .cv_left .photo{width: 100%;margin-top: 15px;}
 .cv_left figure{display: block;margin:0 auto;text-align: center;}
@@ -25,7 +25,7 @@
 .cv_left .my_skill .skill_list .w30{width: 30%;}
 .cv_left .my_text{width: 100%;margin-top: 15px;color: #047a62;font-size: 14px;line-height: 20px;text-align: justify;}
 
-.cv_left .contect{position: absolute;bottom: 15px;left: 0;width: 100%;}
+.cv_left .contect{position: absolute;bottom: 50px;left: 0;width: 100%;}
 .cv_left .contect .contect_list{list-style: none;overflow: hidden;}
 .cv_left .contect .contect_list li{overflow: hidden;line-height: 25px;height: 25px;padding-left: 10%;}
 .cv_left .contect .contect_list li .icon{width: 15px;height: 15px;border-radius: 50%;vertical-align: middle;margin-top: -1px;margin-right: 10px;}
@@ -47,7 +47,8 @@
 .cv_right .project .pro_content{line-height: 20px;margin-top: 5px;color: #2d2d2d}
 .cv_right .project .pro_foot{line-height: 20px;color: #999;}
 .cv_right .experience .school_name{font-size: 20px;color: #1bbc9b;font-weight: bold;line-height: 40px;height: 40px;margin-top: 10px;}
-.cv_right .experience .school_time{font-size: 14px;color: #1bbc9b;line-height: 25px;}
+.cv_right .experience .school_time{font-size: 14px;color: #1bbc9b;line-height: 25px;float: right;margin-top: -25px;margin-right: 50px;}
+.cv_right .experience .school_position{font-size: 16px;color: #1bbc9b;line-height: 25px;font-weight: bold;}
 .cv_right .experience .major{font-size: 18px;color: #2d2d2d;line-height: 30px;}
 .cv_right .experience .school_content{color: #666;line-height: 18px;font-size: 16px;}
 .cv_right .experience .school_content .txt_green{color: #1bbc9b;line-height: 35px}
